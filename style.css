@@ -1,0 +1,64 @@
+h1 {
+    color: #ff894a; 
+    text-align: center;   
+    }
+    
+body {
+      max-width: 600px;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .members-count,
+    .members-list,    
+    .messages {
+      border: 2px solid #c9c4c4;
+      border radius: 50px;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+
+    .messages {
+      border: 2px solid #c9c4c4;
+      border radius: 50px;
+      flex-shrink: 1;
+      overflow: auto;
+    }
+
+    .message {
+      padding: 5px 0;
+    }
+
+    .message .member {
+      display: inline-block;
+    }
+
+    .member {
+      padding-right: 10px;
+      position: relative;
+    }
+
+    .message-form {
+      display: flex;
+      flex-shrink: 0;
+    }
+    .message-form__input {
+      flex-grow: 1;
+      padding: 10px 15px;
+      font-size: 16px;
+    }
+    .message-form__button {
+        background:#4abaff; 
+        color: white;
+        
+     }
+    .message-form__button:hover {
+        background:#4abaff; 
+        color: black;
+        
+    }
+   
